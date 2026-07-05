@@ -5,10 +5,10 @@
 
 ### Web page Design Guide
 
-| Item Name | Category | 
-| :--- | :---: | 
-| Laptop | Electronics |
-| Office Chair | Furniture |
-| Wireless Mouse | Accessories |
+| Categoty | Design Choice | 
+| Webpage Style| :---: | 
+| Font | Electronics |
+| Font Color | Furniture |
+| Background Color | Accessories |
 
 ### Website Design Inspo: https://carpenter.center/
