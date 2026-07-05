@@ -6,6 +6,7 @@
 ### Web page Design Guide
 
 | Categoty | Design Choice | 
+| :---: | | :---: | 
 | Webpage Style| :---: | 
 | Font | Electronics |
 | Font Color | Furniture |
