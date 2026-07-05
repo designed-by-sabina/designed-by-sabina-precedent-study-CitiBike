@@ -40,22 +40,21 @@ body {
   line-height: 1.5;
 }
 
-/* Main grid container that holds all content */
 .container {
-  /* Enable CSS Grid layout */
   display: grid;
-
-  /* Create 12 equal columns (Swiss-style grid system) */
   grid-template-columns: repeat(12, 1fr);
-
-  /* Set spacing between grid columns */
   gap: 24px;
+  width: 100%;
+}
 
-  /* Limit maximum width for large screens */
-  max-width: 1200px;
+body {
+  padding: 80px;
+}
 
-  /* Center the grid on the page */
-  margin: 0 auto;
+
+/* Constrain text */
+p {
+  max-width: 700px;
 }
 
 /* Full-width section inside grid (spans all 12 columns) */
