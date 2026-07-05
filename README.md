@@ -1,16 +1,12 @@
-precedent-study-CitiBike
+# Precedent Study
 
+## CitiBike Rebalancing Study.
+An investigation into ways to rebalance CitiBike stations throughout New York City.
+by Center for Spatial Research at Columbia University
 
-# My TItle
+### Website design Inspo: https://carpenter.center/
 
-## Section 1
-
-## Section 2
-
-### Important sub section
-
-
-## Section 3 with table
+## Web page Design Guide
 
 | Item Name | Category | Quantity | Price |
 | :--- | :---: | :---: | ---: |
