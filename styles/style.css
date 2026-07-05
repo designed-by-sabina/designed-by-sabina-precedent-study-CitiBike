@@ -1,9 +1,119 @@
+/* Set global design variables (colors, spacing system, etc.) */
+:root {
+  /* Define main black color */
+  --black: #111111;
 
-html,
+  /* Define white background color */
+  --white: #ffffff;
 
-body {                              /* Target the entire page body */
-  font-family: 'Roboto', sans-serif;  /* Set the font to Roboto, with sans-serif as backup */
-  background-color: #008080;          /* Set background color to white */
-  color: #FFFFFF                        /* Set text color to dark gray (almost black) */
-  margin: 0;                          /* Remove default spacing around the body */
+  /* Define spacing unit for consistent layout rhythm */
+  --space: 16px;
+}
+
+/* Reset default browser spacing and set box model behavior */
+* {
+  /* Remove default margin */
+  margin: 0;
+
+  /* Remove default padding */
+  padding: 0;
+
+  /* Include padding + border in element width calculations */
+  box-sizing: border-box;
+}
+
+/* Main page body styles */
+body {
+  /* Set font for entire page */
+  font-family: "Inter", sans-serif;
+
+  /* Set background color */
+  background-color: var(--white);
+
+  /* Set default text color */
+  color: var(--black);
+
+  /* Add spacing around entire page */
+  padding: 80px;
+
+  /* Set comfortable line spacing */
+  line-height: 1.5;
+}
+
+/* Main grid container that holds all content */
+.container {
+  /* Enable CSS Grid layout */
+  display: grid;
+
+  /* Create 12 equal columns (Swiss-style grid system) */
+  grid-template-columns: repeat(12, 1fr);
+
+  /* Set spacing between grid columns */
+  gap: 24px;
+
+  /* Limit maximum width for large screens */
+  max-width: 1200px;
+
+  /* Center the grid on the page */
+  margin: 0 auto;
+}
+
+/* Full-width section inside grid (spans all 12 columns) */
+.full {
+  /* Start at column 1 and span all 12 columns */
+  grid-column: 1 / span 12;
+}
+
+/* Half-width section (6 columns) */
+.half {
+  /* Span 6 out of 12 columns */
+  grid-column: span 6;
+}
+
+/* One-third width section (4 columns) */
+.third {
+  /* Span 4 out of 12 columns */
+  grid-column: span 4;
+}
+
+/* Typography: main title */
+h1 {
+  /* Set large type size for hierarchy */
+  font-size: 32px;
+
+  /* Make text bold */
+  font-weight: 600;
+
+  /* Reduce spacing between letters slightly for Swiss look */
+  letter-spacing: -0.02em;
+
+  /* Add space below heading */
+  margin-bottom: 20px;
+}
+
+/* Typography: subtitle */
+h2 {
+  /* Medium-large size */
+  font-size: 24px;
+
+  /* Normal weight */
+  font-weight: 400;
+
+  /* Add spacing below */
+  margin-bottom: 16px;
+
+  /* Subtle color hierarchy */
+  color: #444;
+}
+
+/* Body text styling */
+p {
+  /* Standard readable size */
+  font-size: 16px;
+
+  /* Comfortable line spacing */
+  line-height: 1.6;
+
+  /* Space below paragraphs */
+  margin-bottom: 24px;
 }
