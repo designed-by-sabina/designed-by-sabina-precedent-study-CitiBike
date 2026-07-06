@@ -73,7 +73,9 @@ p {
 .third {
   /* Span 4 out of 12 columns */
   grid-column: span 4;
+  outline: 1px solid red;
 }
+
 
 /* Typography: main title */
 h1 {
@@ -161,7 +163,3 @@ a {
 }
 
 
-.four {
-    grid-column: span 4;
-    outline: 1px solid red;
-}
