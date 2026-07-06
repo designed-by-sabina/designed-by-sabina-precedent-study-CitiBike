@@ -42,15 +42,16 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 24px;
+
+  /* 12 equal columns */
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+
+  /* Separate horizontal and vertical spacing */
+  column-gap: 32px;
+  row-gap: 48px;
+
   width: 100%;
 }
-
-body {
-  padding: 80px;
-}
-
 
 /* Full-width section inside grid (spans all 12 columns) */
 .full {
