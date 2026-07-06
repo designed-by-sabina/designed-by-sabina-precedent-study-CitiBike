@@ -70,11 +70,22 @@ p {
 }
 
 /* One-third width section (4 columns) */
-.third {
-  /* Span 4 out of 12 columns */
-  grid-column: span 4;
-  outline: 1px solid red;
+
+.left {
+    grid-column: 1 / span 4;
 }
+
+.center {
+    grid-column: 5 / span 4;
+}
+
+.right {
+    grid-column: 9 / span 4;
+}
+
+
+
+
 
 
 /* Typography: main title */
