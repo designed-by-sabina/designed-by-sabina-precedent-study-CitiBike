@@ -133,6 +133,16 @@ p {
 }
 
 a {
+
+  /* Standard readable size */
+  font-size: clamp(16px, 1.1vw, 20px);
+
+  /* Comfortable line spacing */
+  line-height: 1.6;
+
+  /* Space below paragraphs */
+  margin-bottom: 24px;
+  
   color: black;
 }
 
