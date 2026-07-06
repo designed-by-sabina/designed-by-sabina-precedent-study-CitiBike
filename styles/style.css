@@ -52,11 +52,6 @@ body {
 }
 
 
-/* Constrain text */
-p {
-  max-width: 900px;
-}
-
 /* Full-width section inside grid (spans all 12 columns) */
 .full {
   /* Start at column 1 and span all 12 columns */
