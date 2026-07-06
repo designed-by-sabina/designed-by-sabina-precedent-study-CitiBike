@@ -125,3 +125,12 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.hover-reveal .hidden-text {
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+.hover-reveal:hover .hidden-text {
+  opacity: 1;
+}
