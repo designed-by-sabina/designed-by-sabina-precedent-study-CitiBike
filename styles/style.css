@@ -142,7 +142,7 @@ a {
 
   /* Space below paragraphs */
   margin-bottom: 24px;
-  
+
   color: black;
 }
 
@@ -158,4 +158,10 @@ a {
 
 .hover-reveal:hover .hidden-text {
   opacity: 1;
+}
+
+
+.four {
+    grid-column: span 4;
+    outline: 1px solid red;
 }
