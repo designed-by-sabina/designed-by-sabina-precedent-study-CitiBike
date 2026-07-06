@@ -116,3 +116,7 @@ p {
   /* Space below paragraphs */
   margin-bottom: 24px;
 }
+
+a {
+  color: black;
+}
