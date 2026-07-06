@@ -78,7 +78,7 @@ p {
 /* Typography: main title */
 h1 {
   /* Set large type size for hierarchy */
-  font-size: 32px;
+  font-size: clamp(36px, 5vw, 72px);
 
   /* Make text bold */
   font-weight: 600;
@@ -93,7 +93,7 @@ h1 {
 /* Typography: subtitle */
 h2 {
   /* Medium-large size */
-  font-size: 24px;
+  font-size: clamp(22px, 2.5vw, 36px);
 
   /* Normal weight */
   font-weight: 400;
@@ -105,10 +105,25 @@ h2 {
   color: #444;
 }
 
+/* Typography: subtitle */
+h3 {
+  /* Medium-large size */
+  font-size: clamp(22px, 2.5vw, 36px);
+
+  /* Normal weight */
+  font-weight: 400;
+
+  /* Add spacing below */
+  margin-bottom: 16px;
+
+  /* Subtle color hierarchy */
+  color: #FF4500;
+}
+
 /* Body text styling */
 p {
   /* Standard readable size */
-  font-size: 16px;
+  font-size: clamp(16px, 1.1vw, 20px);
 
   /* Comfortable line spacing */
   line-height: 1.6;
